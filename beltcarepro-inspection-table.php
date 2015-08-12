@@ -1198,7 +1198,7 @@
 					<table class="table table-striped table-bordered zoom" cellspacing="0" width="100%">
 						<thead>
 							<tr>
-								<th>Conveyor</th>
+								<th>Conveyor Code</th>
 								<th>ID Code</th>
 								<th>Splicing Condition</th>
 								<th>Mechanical Joint or Fastener Condition</th>
