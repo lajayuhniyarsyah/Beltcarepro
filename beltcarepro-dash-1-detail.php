@@ -48,8 +48,8 @@
 							});
 						</script>
 						<?php 
-							$part=array("Belt Conveyor","Roller","Pulley","Motor","Cleaners");
-							for ($i=0; $i<=3; $i++){
+							$part=array("Belt Conveyor","SECTION SPLICE BELT","Pulley","ROLLER","PRIMARY Cleaners","Secondary Cleaners");
+							for ($i=0; $i<=6; $i++){
 						?>
 							<script type="text/javascript">
 								$(function () {
@@ -62,7 +62,7 @@
 								            }
 								        },
 								        title: {
-								            text: '<?php echo $part[$i] ?>'
+								            text: '<?php echo strtoupper($part[$i]) ?>'
 								        },
 								        plotOptions: {
 								            pie: {
@@ -77,11 +77,11 @@
 								        series: [{
 								            name: 'Delivered amount',
 								            data: [
-								               ['Problem Lvl4', 8],
-								             ['Problem Lvl3', 6],
-											 ['Problem Lvl2', 1],
-								             ['Problem Lvl1', 3],
-								             ['Running Well', 8],
+								               	 ['Problem Lvl4', 2],
+									             ['Problem Lvl3', 4],
+												 ['Problem Lvl2', 6],
+									             ['Problem Lvl1', 7],
+									             ['Running Well', 12],
 								            ]
 								        }]
 								    });
@@ -164,10 +164,10 @@
 								<h1 class="title">Part Condition </h1>
 							</div>	
 						</div> -->
-						<div class="col-sm-12">
+						<div class="col-sm-12" id="partcondition">
 							<?php 
-								for ($i=0; $i <= 3; $i++) { 
-									echo '<div class="col-sm-3">';
+								for ($i=0; $i <= 6; $i++) { 
+									echo '<div class="col-sm-4">';
 									echo '<div class="part'.$i.'"></div>';
 									echo '</div>';	
 								}

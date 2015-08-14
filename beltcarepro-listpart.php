@@ -36,27 +36,27 @@
 						
 						<!-- DATA TABLE -->
 						<div class="panel panel-default">
-								<div class="col-sm-8">
+								<div class="col-sm-9">
 									<table>
 										<tr>
 											<td><p class="description"><strong>Conveyor Name</strong></p></td>
-											<td><p class="description">:</p></td>
+											<td><p class="description"> : </p></td>
 											<td><p class="description"> C25</p></td>
 										</tr>
 										<tr>
 											<td><p class="description"><strong>Part Conveyor</strong></p></td>
-											<td><p class="description">:</p></td>
+											<td><p class="description"> : </p></td>
 											<td><p class="description"> BELT CONVEYOR</p></td>
 										</tr>
 										<tr>
 											<td><p class="description"><strong>Status Conveyor</strong></p></td>
-											<td><p class="description">:</p></td>
+											<td><p class="description"> : </p></td>
 											<td><p class="description"> Running Well</p></td>
 										</tr>
 									</table>
 									  
 								</div>
-								<div class="col-sm-4">
+								<div class="col-sm-3">
 									<table>
 										<tr>
 											<td><p class="description"><strong>Date</strong></p></td>

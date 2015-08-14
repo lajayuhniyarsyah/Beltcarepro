@@ -70,7 +70,7 @@
 												<!-- DATA TABLE -->
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h3 class="panel-title">ACTION PART HISTORY</h3>
+								<h3 class="panel-title">BELT CONVEYOR</h3>
 								<div class="panel-options">
 									<a href="#" data-toggle="panel">
 										<span class="collapse-icon">&ndash;</span>
@@ -83,7 +83,7 @@
 							</div>
 							<div class="panel-body">
 								
-								<script type="text/javascript">
+							<!-- 	<script type="text/javascript">
 								jQuery(document).ready(function($)
 								{
 									$("#example-3").dataTable().yadcf([
@@ -92,426 +92,75 @@
 										{column_number : 2, filter_type: 'text'},
 									]);
 								});
-								</script>
+								</script> -->
 								
 								<table class="table table-striped table-bordered" id="example-3">
 									<thead>
 										<tr class="replace-inputs">
-											<th>PART NAME</th>
-											<th>PART CODE</th>
-											<th>STATUS</th>
-											<th>ACTION</th>
+											<th>Conveyor Code</th>
+											<th>ID Code</th>
+											<th>Top &amp; Bottom Cover</th>
+											<th>Edge Rubber</th>
+											<th>Belt Profile</th>
+											<th>Date Inspect</th>
+											<th>Photos</th>
+											<th>Suggest</th>
 										</tr>
 									</thead>
 									<tbody>
-										<tr>
-											<td>Trident</td>
-											<td>Internet Explorer 4.0</td>
-											<td>Win 95+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Trident</td>
-											<td>Internet Explorer 5.0</td>
-											<td>Win 95+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Trident</td>
-											<td>Internet Explorer 5.5</td>
-											<td>Win 95+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Trident</td>
-											<td>Internet Explorer 6</td>
-											<td>Win 98+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Trident</td>
-											<td>Internet Explorer 7</td>
-											<td>Win XP SP2+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Trident</td>
-											<td>AOL browser (AOL desktop)</td>
-											<td>Win XP</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Firefox 1.0</td>
-											<td>Win 98+ / OSX.2+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Firefox 1.5</td>
-											<td>Win 98+ / OSX.2+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Firefox 2.0</td>
-											<td>Win 98+ / OSX.2+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Firefox 3.0</td>
-											<td>Win 2k+ / OSX.3+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Camino 1.0</td>
-											<td>OSX.2+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Camino 1.5</td>
-											<td>OSX.3+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Netscape 7.2</td>
-											<td>Win 95+ / Mac OS 8.6-9.2</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Netscape Browser 8</td>
-											<td>Win 98SE+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Netscape Navigator 9</td>
-											<td>Win 98+ / OSX.2+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Mozilla 1.0</td>
-											<td>Win 95+ / OSX.1+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Mozilla 1.1</td>
-											<td>Win 95+ / OSX.1+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Mozilla 1.2</td>
-											<td>Win 95+ / OSX.1+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Mozilla 1.3</td>
-											<td>Win 95+ / OSX.1+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Mozilla 1.4</td>
-											<td>Win 95+ / OSX.1+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Mozilla 1.5</td>
-											<td>Win 95+ / OSX.1+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										<tr>
-											<td>Gecko</td>
-											<td>Mozilla 1.6</td>
-											<td>Win 95+ / OSX.1+</td>
-											<td class="center">
-												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-													Edit
-												</a>
-												
-												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-													Delete
-												</a>
-												
-												<a href="#" class="btn btn-info btn-sm btn-icon icon-left">
-													Profile
-												</a>
-											</td>
-										</tr>
-										
+										<?php for($i=1; $i<=5; $i++){ ?>
+											<tr>
+												<td>C - 2<?php echo $i; ?></td>
+												<td>BC-C2<?php echo $i; ?>-00<?php echo $i; ?></td>
+												<td>Win 95+</td>
+												<td>Internet Explorer 4.0</td>
+												<td>Win 95+</td>
+												<td>Internet Explorer 4.0</td>
+												<td>
+													<a href="javascript:;" onclick="jQuery('.modal-1').modal('show', {backdrop: 'fade'});">
+														<div class="cropthumbnail">
+														  <img src="images/1.jpg" class="portrait" alt="Image" />
+														</div>
+													</a>
+													
+													<a href="javascript:;" onclick="jQuery('.modal-1').modal('show', {backdrop: 'fade'});">
+														<div class="cropthumbnail">
+														  <img src="images/1.jpg" class="portrait" alt="Image" />
+														</div>
+													</a>
+
+												</td>
+												<td>Win 95+</td>
+											</tr>
+										<?php } ?>
 									</tbody>
-									<tfoot>
-										<tr>
-											<th>PART NAME</th>
-											<th>PART CODE</th>
-											<th>STATUS</th>
-											<th>ACTION</th>
-										</tr>
-									</tfoot>
 								</table>
 								
+								<!-- Modal Atau Foto -->
+									<div class="modal fade modal-1">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+													<h4 class="modal-title">
+														BELT CONVEYOR RUNNING WELL
+													</h4>
+												</div>
+												<div class="modal-body">
+													<img src="images/1.jpg" class="modal-image" />
+												</div>
+												<h4 class="modal-title">
+													Permukaan Top cover pada sisi kanan belt tergores sepanjang belt.
+													<br/>
+													* Permukaan Top dan Bottom cover mengalami crack dibeberapa titik/area
+												</h4>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+									</div>
 							</div>
 						</div>
 						<!--END ISI CONTENT -->
